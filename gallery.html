@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the King's Lounge gallery — food, restaurant interior, family dining, events, and outdoor areas in Walasmulla, Sri Lanka.">
+  <meta property="og:title" content="Gallery | King's Lounge Walasmulla">
+  <meta property="og:description" content="Explore photos of our food, ambiance, events, and dining experiences at King's Lounge.">
+  <meta property="og:type" content="website">
+  <title>Gallery | King's Lounge — Walasmulla, Sri Lanka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+</head>
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crown"><svg viewBox="0 0 64 64" fill="none"><path d="M8 44L16 20L24 32L32 12L40 32L48 20L56 44H8Z" stroke="#FF5700" stroke-width="2" fill="rgba(255,87,0,0.15)"/><circle cx="32" cy="48" r="4" fill="#FF5700"/></svg></div>
+    <p class="loader-text"><span class="brand-highlight">King's Lounge</span></p>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+
+  <div class="promo-modal" id="promo-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Current promotion">
+    <div class="promo-modal-backdrop" data-promo-close tabindex="-1"></div>
+    <div class="promo-modal-content">
+      <button type="button" class="promo-modal-close" aria-label="Close promotion" data-promo-close>&times;</button>
+      <img src="assets/images/promo.jpg" alt="King's Lounge promotion" class="promo-modal-image" loading="eager">
+    </div>
+  </div>
+
+  <nav class="navbar scrolled" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="King's Lounge Home"><img src="assets/images/kigs%20lodge%20logo.png" alt="King's Lounge" class="nav-logo-img"><span class="nav-logo-text">King's <span>Lounge</span></span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html" class="active">Gallery</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Reserve</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html" class="active">Gallery</a><a href="contact.html">Contact</a><a href="contact.html">Reserve Table</a></div>
+
+  <main>
+    <header class="page-hero">
+      <div class="hero-bg" style="background-image: url('assets/images/1.jpg');"></div>
+      <div class="hero-overlay"></div>
+      <div class="page-hero-content">
+        <h1 class="page-hero-title">Gallery</h1>
+        <p class="page-hero-breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Visual Journey</span>
+          <h2 class="section-title">Moments at <span class="brand-highlight">King's Lounge</span></h2>
+          <div class="gold-line"></div>
+          <p class="section-subtitle">Explore our food, ambiance, and memorable events</p>
+        </div>
+
+        <div class="gallery-filters reveal" role="tablist" aria-label="Gallery filters">
+          <button class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="gallery-filter-btn" data-filter="food" role="tab" aria-selected="false">Food</button>
+          <button class="gallery-filter-btn" data-filter="interior" role="tab" aria-selected="false">Restaurant Interior</button>
+          <button class="gallery-filter-btn" data-filter="family" role="tab" aria-selected="false">Family Dining</button>
+          <button class="gallery-filter-btn" data-filter="events" role="tab" aria-selected="false">Events</button>
+          <button class="gallery-filter-btn" data-filter="outdoor" role="tab" aria-selected="false">Outdoor Area</button>
+        </div>
+
+        <div class="gallery-masonry reveal" id="gallery-masonry">
+          <div class="gallery-masonry-item" data-category="interior">
+            <img src="assets/images/1.jpg" alt="King's Lounge Walasmulla" loading="lazy" data-caption="King's Lounge, Walasmulla">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="interior">
+            <img src="assets/images/2.jpg" alt="King's Lounge dining area" loading="lazy" data-caption="Restaurant interior">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="food">
+            <img src="assets/images/3.jpg" alt="King's Lounge food" loading="lazy" data-caption="Our cuisine">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="food">
+            <img src="assets/images/4.jpg" alt="King's Lounge dishes" loading="lazy" data-caption="Freshly prepared dishes">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="family">
+            <img src="assets/images/5.jpg" alt="Family dining at King's Lounge" loading="lazy" data-caption="Family dining">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="events">
+            <img src="assets/images/6.jpg" alt="Events at King's Lounge" loading="lazy" data-caption="Events & gatherings">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="outdoor">
+            <img src="assets/images/7.jpg" alt="King's Lounge outdoor area" loading="lazy" data-caption="Outdoor area">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="interior">
+            <img src="assets/images/8.jpg" alt="King's Lounge ambiance" loading="lazy" data-caption="Restaurant ambiance">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="food">
+            <img src="assets/images/9.jpg" alt="King's Lounge menu highlights" loading="lazy" data-caption="Menu highlights">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="family">
+            <img src="assets/images/10.jpg" alt="Guests at King's Lounge" loading="lazy" data-caption="Happy guests">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="interior">
+            <img src="assets/images/11.jpg" alt="King's Lounge seating" loading="lazy" data-caption="Comfortable seating">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="events">
+            <img src="assets/images/12.jpg" alt="Private events King's Lounge" loading="lazy" data-caption="Private events">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="food">
+            <img src="assets/images/13.jpg" alt="Signature dishes King's Lounge" loading="lazy" data-caption="Signature dishes">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="outdoor">
+            <img src="assets/images/14.jpg" alt="King's Lounge exterior" loading="lazy" data-caption="Restaurant exterior">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="family">
+            <img src="assets/images/15.jpg" alt="Family celebrations King's Lounge" loading="lazy" data-caption="Family celebrations">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="interior">
+            <img src="assets/images/16.jpg" alt="VIP room King's Lounge" loading="lazy" data-caption="VIP dining room">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="food">
+            <img src="assets/images/17.jpg" alt="King's Lounge specialities" loading="lazy" data-caption="House specialities">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="events">
+            <img src="assets/images/18.jpg" alt="Group dining King's Lounge" loading="lazy" data-caption="Group dining">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+          <div class="gallery-masonry-item" data-category="outdoor">
+            <img src="assets/images/19.jpg" alt="King's Lounge Walasmulla location" loading="lazy" data-caption="Visit us in Walasmulla">
+            <div class="gallery-masonry-overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><img src="assets/images/kigs%20lodge%20logo.png" alt="King's Lounge" class="footer-logo-img" width="160" height="56"><p>Premium family dining in the heart of Walasmulla.</p><div class="footer-social"><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a></div></div>
+        <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Services</h4><ul class="footer-links"><li><a href="index.html#byob">BYOB Dining</a></li><li><a href="contact.html">Reservations</a></li><li><a href="contact.html">Events</a></li></ul></div>
+        <div><h4>Contact</h4><ul class="footer-contact"><li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>King's Lounge, Walasmulla</li><li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>070 401 0005</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 <span class="brand-highlight">King's Lounge</span>. All Rights Reserved.</p></div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Image lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close lightbox"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-nav lightbox-next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+    <p class="lightbox-caption"></p>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <a href="https://wa.me/94704010005" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+</body>
+</html>

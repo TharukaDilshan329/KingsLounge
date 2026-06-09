@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore King's Lounge menu — Starters, Rice & Curry, Seafood, Chinese, Kottu, Fried Rice, Desserts & Beverages. Authentic Sri Lankan flavors in Walasmulla.">
+  <meta property="og:title" content="Menu | King's Lounge Walasmulla">
+  <meta property="og:description" content="Browse our full menu featuring authentic Sri Lankan cuisine, fresh seafood, and international favorites.">
+  <meta property="og:type" content="website">
+  <title>Menu | King's Lounge — Walasmulla, Sri Lanka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+</head>
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-crown"><svg viewBox="0 0 64 64" fill="none"><path d="M8 44L16 20L24 32L32 12L40 32L48 20L56 44H8Z" stroke="#FF5700" stroke-width="2" fill="rgba(255,87,0,0.15)"/><circle cx="32" cy="48" r="4" fill="#FF5700"/></svg></div>
+    <p class="loader-text"><span class="brand-highlight">King's Lounge</span></p>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+
+  <div class="promo-modal" id="promo-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Current promotion">
+    <div class="promo-modal-backdrop" data-promo-close tabindex="-1"></div>
+    <div class="promo-modal-content">
+      <button type="button" class="promo-modal-close" aria-label="Close promotion" data-promo-close>&times;</button>
+      <img src="assets/images/promo.jpg" alt="King's Lounge promotion" class="promo-modal-image" loading="eager">
+    </div>
+  </div>
+
+  <nav class="navbar scrolled" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="King's Lounge Home"><img src="assets/images/kigs%20lodge%20logo.png" alt="King's Lounge" class="nav-logo-img"><span class="nav-logo-text">King's <span>Lounge</span></span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html" class="active">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Reserve</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html" class="active">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="contact.html">Reserve Table</a></div>
+
+  <main>
+    <header class="page-hero">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80');"></div>
+      <div class="hero-overlay"></div>
+      <div class="page-hero-content">
+        <h1 class="page-hero-title">Our Menu</h1>
+        <p class="page-hero-breadcrumb"><a href="index.html">Home</a> / Menu</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Culinary Collection</span>
+          <h2 class="section-title">Discover Our Flavors</h2>
+          <div class="gold-line"></div>
+          <p class="section-subtitle">Crafted with passion using the finest local ingredients</p>
+        </div>
+
+        <nav class="menu-categories-nav reveal" aria-label="Menu categories">
+          <a href="#starters" class="menu-cat-btn active">Starters</a>
+          <a href="#rice-curry" class="menu-cat-btn">Rice & Curry</a>
+          <a href="#seafood" class="menu-cat-btn">Seafood</a>
+          <a href="#chinese" class="menu-cat-btn">Chinese</a>
+          <a href="#kottu" class="menu-cat-btn">Kottu</a>
+          <a href="#fried-rice" class="menu-cat-btn">Fried Rice</a>
+          <a href="#desserts" class="menu-cat-btn">Desserts</a>
+          <a href="#beverages" class="menu-cat-btn">Beverages</a>
+        </nav>
+
+        <!-- Starters -->
+        <div class="menu-category" id="starters">
+          <div class="menu-category-header reveal"><h2>Starters</h2><p>Begin your culinary journey with our appetizing starters</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1606491956689-2ea866854177?w=200&q=80" alt="Chicken Spring Rolls" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chicken Spring Rolls</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 650</span></div><p>Crispy golden rolls filled with seasoned chicken and vegetables, served with sweet chili sauce.</p><span class="menu-item-badge badge-chef">Popular</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=200&q=80" alt="Vegetable Samosa" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Vegetable Samosa</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 450</span></div><p>Triangular pastry filled with spiced potatoes, peas, and aromatic herbs.</p><span class="menu-item-badge badge-veg">Vegetarian</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&q=80" alt="Hot Butter Cuttlefish" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Hot Butter Cuttlefish</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 850</span></div><p>Tender cuttlefish tossed in a rich butter sauce with curry leaves and chili.</p><span class="menu-item-badge badge-spicy">Spicy</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1608030699966-cd693a754264?w=200&q=80" alt="Fish Cutlets" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Fish Cutlets</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 550</span></div><p>Traditional Sri Lankan fish cutlets with a crispy breadcrumb coating and tangy filling.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1606491956689-2ea866854177?w=200&q=80" alt="Chicken Wings" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Spicy Chicken Wings</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 750</span></div><p>Crispy fried chicken wings glazed with our signature spicy sauce.</p><span class="menu-item-badge badge-spicy">Spicy</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&q=80" alt="Prawn Cocktail" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Prawn Cocktail</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 950</span></div><p>Fresh prawns served on a bed of crisp lettuce with tangy cocktail sauce.</p><span class="menu-item-badge badge-new">New</span></div></article>
+          </div>
+        </div>
+
+        <!-- Rice & Curry -->
+        <div class="menu-category" id="rice-curry">
+          <div class="menu-category-header reveal"><h2>Rice & Curry</h2><p>Authentic Sri Lankan rice and curry platters</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Traditional Rice and Curry" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Traditional Rice & Curry</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,250</span></div><p>Steamed red rice with dhal, jackfruit curry, brinjal moju, papadam, and pol sambol.</p><span class="menu-item-badge badge-chef">Chef's Pick</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Chicken Curry Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chicken Curry Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,450</span></div><p>Fragrant basmati rice with slow-cooked chicken curry and seasonal vegetable sides.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Fish Curry Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Fish Curry Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,550</span></div><p>Fresh fish curry in coconut gravy served with rice, mallung, and fried papadam.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Vegetable Rice and Curry" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Vegetable Rice & Curry</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 950</span></div><p>Assorted vegetable curries with dhal, gotukola sambol, and steamed white rice.</p><span class="menu-item-badge badge-veg">Vegetarian</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Lamprais" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Lamprais</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,650</span></div><p>Burgher-style lamprais with rice, frikkadels, ash plantain, and seeni sambol wrapped in banana leaf.</p><span class="menu-item-badge badge-chef">Specialty</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=200&q=80" alt="Mutton Curry Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Mutton Curry Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,750</span></div><p>Tender mutton slow-cooked in rich spices with coconut milk, served with rice and sides.</p></div></article>
+          </div>
+        </div>
+
+        <!-- Seafood -->
+        <div class="menu-category" id="seafood">
+          <div class="menu-category-header reveal"><h2>Seafood</h2><p>Fresh catch from the southern coast</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Grilled Seafood Platter" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Grilled Seafood Platter</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 2,800</span></div><p>Assorted grilled fish, prawns, and calamari with garlic butter and lemon.</p><span class="menu-item-badge badge-chef">Chef's Pick</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Jaffna Crab Curry" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Jaffna Crab Curry</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 2,200</span></div><p>Fresh mud crab cooked in authentic Jaffna-style spices and coconut milk.</p><span class="menu-item-badge badge-spicy">Spicy</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Garlic Prawns" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Garlic Butter Prawns</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,850</span></div><p>Large prawns sautéed in garlic butter with herbs and a hint of white wine.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Fish Ambul Thiyal" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Fish Ambul Thiyal</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,650</span></div><p>Traditional sour fish curry with goraka, a southern Sri Lankan delicacy.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Calamari Rings" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Crispy Calamari Rings</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,250</span></div><p>Golden fried calamari rings served with tartar sauce and lemon wedge.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565680018434-b6989377987f?w=200&q=80" alt="Devilled Fish" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Devilled Fish</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,450</span></div><p>Crispy fish tossed in a sweet and spicy devilled sauce with capsicum and onion.</p><span class="menu-item-badge badge-spicy">Spicy</span></div></article>
+          </div>
+        </div>
+
+        <!-- Chinese -->
+        <div class="menu-category" id="chinese">
+          <div class="menu-category-header reveal"><h2>Chinese</h2><p>Asian favorites with a Sri Lankan twist</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&q=80" alt="Sweet and Sour Chicken" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Sweet & Sour Chicken</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,350</span></div><p>Crispy chicken pieces in tangy sweet and sour sauce with pineapple and bell peppers.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&q=80" alt="Chilli Chicken" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chilli Chicken</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,250</span></div><p>Indo-Chinese style chicken with green chilies, capsicum, and soy sauce.</p><span class="menu-item-badge badge-spicy">Spicy</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&q=80" alt="Chicken Noodles" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chicken Noodles</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 950</span></div><p>Stir-fried egg noodles with chicken, vegetables, and aromatic soy-ginger sauce.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&q=80" alt="Hot Garlic Prawns" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Hot Garlic Prawns</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,650</span></div><p>Juicy prawns wok-tossed with garlic, spring onions, and chili paste.</p></div></article>
+          </div>
+        </div>
+
+        <!-- Kottu -->
+        <div class="menu-category" id="kottu">
+          <div class="menu-category-header reveal"><h2>Kottu</h2><p>Sri Lanka's iconic street food, elevated</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&q=80" alt="Chicken Kottu" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chicken Kottu</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 950</span></div><p>Shredded godhamba roti stir-fried with chicken, egg, vegetables, and spices.</p><span class="menu-item-badge badge-chef">Best Seller</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&q=80" alt="Cheese Kottu" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Cheese Kottu</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,150</span></div><p>Classic kottu topped with melted cheese for an indulgent twist.</p><span class="menu-item-badge badge-new">New</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&q=80" alt="Seafood Kottu" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Seafood Kottu</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,350</span></div><p>Kottu loaded with prawns, fish, and calamari in a rich seafood gravy.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&q=80" alt="Vegetable Kottu" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Vegetable Kottu</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 750</span></div><p>Roti kottu with mixed vegetables, egg, and our signature spice blend.</p><span class="menu-item-badge badge-veg">Vegetarian</span></div></article>
+          </div>
+        </div>
+
+        <!-- Fried Rice -->
+        <div class="menu-category" id="fried-rice">
+          <div class="menu-category-header reveal"><h2>Fried Rice</h2><p>Wok-fried perfection</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb274?w=200&q=80" alt="Chicken Fried Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chicken Fried Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 850</span></div><p>Fragrant fried rice with tender chicken, egg, spring onions, and soy sauce.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb274?w=200&q=80" alt="Seafood Fried Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Seafood Fried Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 1,150</span></div><p>Fried rice with prawns, fish, and calamari in a light garlic sauce.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb274?w=200&q=80" alt="Egg Fried Rice" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Egg Fried Rice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 650</span></div><p>Classic egg fried rice with vegetables and a touch of sesame oil.</p><span class="menu-item-badge badge-veg">Vegetarian</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb274?w=200&q=80" alt="Nasi Goreng" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Nasi Goreng Special</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 950</span></div><p>Indonesian-style fried rice with chicken satay, fried egg, and prawn crackers.</p><span class="menu-item-badge badge-chef">Special</span></div></article>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-category" id="desserts">
+          <div class="menu-category-header reveal"><h2>Desserts</h2><p>Sweet endings to your meal</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&q=80" alt="Watalappan" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Watalappan</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 450</span></div><p>Traditional Sri Lankan coconut custard pudding with jaggery and cardamom.</p><span class="menu-item-badge badge-chef">Traditional</span></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&q=80" alt="Chocolate Lava Cake" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Chocolate Lava Cake</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 650</span></div><p>Warm chocolate cake with a molten center, served with vanilla ice cream.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&q=80" alt="Curd and Treacle" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Curd & Kithul Treacle</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 350</span></div><p>Fresh buffalo curd drizzled with golden kithul treacle — a Sri Lankan classic.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&q=80" alt="Ice Cream Sundae" loading="lazy"></div><div class="menu-item-content"><div class="menu-item-header"><h3>Ice Cream Sundae</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 550</span></div><p>Three scoops of premium ice cream with chocolate sauce, nuts, and cherry.</p></div></article>
+          </div>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-category" id="beverages">
+          <div class="menu-category-header reveal"><h2>Beverages</h2><p>Refreshing drinks to complement your meal</p></div>
+          <div class="menu-items">
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>Fresh Lime Juice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 350</span></div><p>Freshly squeezed lime with a hint of mint and sugar.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>King Coconut</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 300</span></div><p>Refreshing thambili (king coconut) served chilled in the shell.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>Passion Fruit Juice</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 400</span></div><p>Sweet and tangy passion fruit juice, freshly blended.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>Iced Coffee</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 450</span></div><p>Cold brew coffee with milk and a touch of vanilla.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>Ceylon Tea</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 250</span></div><p>Premium Ceylon black tea served hot with milk and sugar on the side.</p></div></article>
+            <article class="menu-item reveal"><div class="menu-item-content"><div class="menu-item-header"><h3>Soft Drinks</h3><span class="menu-item-dots"></span><span class="menu-item-price">Rs. 200</span></div><p>Coca-Cola, Sprite, Fanta, or Ginger Beer — served chilled.</p></div></article>
+          </div>
+        </div>
+
+        <div class="text-center mt-40 reveal">
+          <p class="section-subtitle mb-40">All prices are in Sri Lankan Rupees (LKR) and subject to change. Please inform staff of any allergies.</p>
+          <a href="contact.html" class="btn btn-primary">Reserve a Table</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><img src="assets/images/kigs%20lodge%20logo.png" alt="King's Lounge" class="footer-logo-img" width="160" height="56"><p>Premium family dining in the heart of Walasmulla.</p><div class="footer-social"><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a></div></div>
+        <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Services</h4><ul class="footer-links"><li><a href="index.html#byob">BYOB Dining</a></li><li><a href="contact.html">Reservations</a></li><li><a href="contact.html">Events</a></li></ul></div>
+        <div><h4>Contact</h4><ul class="footer-contact"><li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>King's Lounge, Walasmulla</li><li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>070 401 0005</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 <span class="brand-highlight">King's Lounge</span>. All Rights Reserved.</p></div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <a href="https://wa.me/94704010005" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
